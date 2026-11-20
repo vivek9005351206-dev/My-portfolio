@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vivek | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar">
+        <a href="#" class="logo">Vivek<span></span></a>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button class="menu-btn" id="menuBtn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+
+        <h1>Hi, I'm <span>Vivek</span></h1>
+
+        <h2>I'm a <span id="typing"></span></h2>
+
+        <p class="description">
+          A passionate Computer Science student interested in technology,
+          programming, data analytics and building creative digital solutions.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn">View Projects</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+
+        <!-- Social Links -->
+        <div class="social-icons">
+          <a href="https://github.com/" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+
+          <a href="https://linkedin.com/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+
+          <a href="https://instagram.com/" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <div class="image-circle">
+          <img
+            src="image.jpg"
+            alt="Portfolio profile image"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+      <div class="section-heading">
+        <p>GET TO KNOW ME</p>
+        <h2>About <span>Me</span></h2>
+      </div>
+
+      <div class="about-content">
+        <div class="about-text">
+          <h3>Computer Science Student & Tech Enthusiast</h3>
+
+          <p>
+            I am a computer science student passionate about programming,
+            technology, data and software development. I enjoy learning new
+            technologies and solving real-world problems through code.
+          </p>
+
+          <p>
+            My goal is to continuously improve my technical skills and build
+            projects that make a meaningful impact.
+          </p>
+
+          <a href="#contact" class="btn">Let's Connect</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section" id="skills">
+      <div class="section-heading">
+        <p>WHAT I KNOW</p>
+        <h2>My <span>Skills</span></h2>
+      </div>
+
+      <div class="skills-container">
+        <div class="skill-card">
+          <i class="fab fa-html5"></i>
+          <h3>HTML</h3>
+          <div class="progress"><span style="width: 90%"></span></div>
+        </div>
+
+        <div class="skill-card">
+          <i class="fab fa-css3-alt"></i>
+          <h3>CSS</h3>
+          <div class="progress"><span style="width: 80%"></span></div>
+        </div>
+
+        <div class="skill-card">
+          <i class="fab fa-js"></i>
+          <h3>JavaScript</h3>
+          <div class="progress"><span style="width: 65%"></span></div>
+        </div>
+
+        <div class="skill-card">
+          <i class="fab fa-python"></i>
+          <h3>Python</h3>
+          <div class="progress"><span style="width: 75%"></span></div>
+        </div>
+
+        <div class="skill-card">
+          <i class="fas fa-database"></i>
+          <h3>SQL / DBMS</h3>
+          <div class="progress"><span style="width: 70%"></span></div>
+        </div>
+
+        <div class="skill-card">
+          <i class="fas fa-chart-line"></i>
+          <h3>Data Analytics</h3>
+          <div class="progress"><span style="width: 65%"></span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section" id="projects">
+      <div class="section-heading">
+        <p>MY RECENT WORK</p>
+        <h2>My <span>Projects</span></h2>
+      </div>
+
+      <div class="projects-container">
+        <div class="project-card">
+          <div class="project-icon">
+            <i class="fas fa-cloud-sun"></i>
+          </div>
+
+          <h3>Weather Data Analyzer</h3>
+
+          <p>
+            Analyzes weather data using Python, Pandas and Matplotlib and
+            generates visual reports.
+          </p>
+
+          <div class="project-tags">
+            <span>Python</span>
+            <span>Pandas</span>
+            <span>Matplotlib</span>
+          </div>
+
+          <a href="#" class="project-link">
+            View Project <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon">
+            <i class="fas fa-book"></i>
+          </div>
+
+          <h3>Library Management System</h3>
+
+          <p>
+            A Python-based application to manage books, records, issuing,
+            returning and searching.
+          </p>
+
+          <div class="project-tags">
+            <span>Python</span>
+            <span>OOP</span>
+            <span>JSON</span>
+          </div>
+
+          <a href="#" class="project-link">
+            View Project <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon">
+            <i class="fas fa-robot"></i>
+          </div>
+
+          <h3>AI Telegram Bot</h3>
+
+          <p>
+            An intelligent Telegram bot with AI chat, memory, commands and
+            multiple useful functions.
+          </p>
+
+          <div class="project-tags">
+            <span>Python</span>
+            <span>AI</span>
+            <span>SQLite</span>
+          </div>
+
+          <a href="#" class="project-link">
+            View Project <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+      <div class="section-heading">
+        <p>GET IN TOUCH</p>
+        <h2>Contact <span>Me</span></h2>
+      </div>
+
+      <div class="contact-container">
+        <div class="contact-info">
+          <h3>Let's work together!</h3>
+          <p>
+            Have an idea, project or opportunity? Feel free to connect with me.
+          </p>
+
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <span> vivek9005371206@gmail.com</span>
+          </div>
+
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <a href="tel:+919005361206"> +91 90053 51206 </a>
+          </div>
+
+          <div class="contact-item">
+            <i class="fas fa-location-dot"></i>
+            <span>India</span>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <input type="text" placeholder="Subject" required />
+          <textarea rows="5" placeholder="Your Message" required></textarea>
+
+          <button type="submit" class="btn">
+            Send Message <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2026 Vivek. All Rights Reserved.</p>
+      <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
